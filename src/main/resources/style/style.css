@@ -1,0 +1,16 @@
+.custom-card {
+    -fx-background-color: white;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0.0, 0, 4);
+    -fx-min-width: 25%;
+
+}
+.title-label {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+}
+.description-label {
+    -fx-font-size: 15px;
+}
