@@ -39,17 +39,25 @@ Fluxo de Uso
     Alertas são exibidos para feedback sobre o processo, e entradas inválidas são tratadas com mensagens apropriadas.
 
 Tecnologias Empregadas
+
     Linguagem de Programação:
         Java – A principal linguagem utilizada para o desenvolvimento da aplicação, com foco em programação orientada a objetos.
+
     Arquitetura:
-        MVC (Model-View-Controller) – A aplicação segue a arquitetura MVC, separando a lógica de negócio, interface do usuário e controle, promovendo manutenção e                 escalabilidade do código.
+        MVC (Model-View-Controller) – A aplicação segue a arquitetura MVC, separando a lógica de negócio, interface do usuário e controle, promovendo manutenção e escalabilidade do código.
+
     Paradigma de Programação:
-        Programação Orientada a Objetos (POO) – A solução foi construída utilizando os conceitos da programação orientada a objetos, como encapsulamento, herança e                polimorfismo.
+        Programação Orientada a Objetos (POO) – A solução foi construída utilizando os conceitos da programação orientada a objetos, como encapsulamento, herança e polimorfismo.
+
     Bibliotecas e Frameworks:
         JavaFX – Usado para criar a interface gráfica do usuário (GUI), utilizando componentes como TextField, Label, VBox, HBox, entre outros.
         JDBC – Usado para interagir com o banco de dados, permitindo a persistência de dados (usando SQLite no projeto).
+
     Banco de Dados:
         SQLite – Banco de dados utilizado para armazenamento de dados, com a implementação de um mecanismo simples para registrar o histórico de conversões.
+
     Técnicas Avançadas:
         Expressões Lambda – Utilizadas para simplificar o código, especialmente em listeners e manipulação de eventos, melhorando a legibilidade e manutenção do código.
         Listeners e Observadores – Usados para detectar mudanças nas propriedades e responder a interações do usuário.
+
+
