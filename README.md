@@ -50,6 +50,7 @@ Tecnologias Empregadas
         Programação Orientada a Objetos (POO) – A solução foi construída utilizando os conceitos da programação orientada a objetos, como encapsulamento, herança e polimorfismo.
 
     Bibliotecas e Frameworks:
+        Maven – Gerenciador de dependências e automação de build, utilizado para organizar e facilitar a inclusão de bibliotecas, além de gerir o ciclo de vida do projeto.
         JavaFX – Usado para criar a interface gráfica do usuário (GUI), utilizando componentes como TextField, Label, VBox, HBox, entre outros.
         JDBC – Usado para interagir com o banco de dados, permitindo a persistência de dados (usando SQLite no projeto).
 
