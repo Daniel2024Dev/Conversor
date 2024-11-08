@@ -1,6 +1,9 @@
 # Conversor
 
-Esta aplicação JavaFX foi desenvolvida para converter entre unidades de medida, especificamente "newton-metro" (Nm) e "quilograma-força" (kgf). Além da funcionalidade de conversão, a aplicação armazena um histórico das conversões realizadas em um banco de dados SQLite e exibe o histórico ao usuário. O fluxo de dados e a navegação na interface gráfica são bem definidos e organizados. Aqui está um resumo das principais funcionalidades e estrutura do código:
+Esta aplicação JavaFX foi desenvolvida para converter entre unidades de medida, especificamente "newton-metro" (Nm) e "
+quilograma-força" (kgf). Além da funcionalidade de conversão, a aplicação armazena um histórico das conversões
+realizadas em um banco de dados SQLite e exibe o histórico ao usuário. O fluxo de dados e a navegação na interface
+gráfica são bem definidos e organizados. Aqui está um resumo das principais funcionalidades e estrutura do código:
 Estrutura Principal
 
     Interface Gráfica (JavaFX):

@@ -83,6 +83,12 @@ public class HomeViewController implements Initializable {
 
     // Função que cria os cards para exibir as conversões
     private void createCards() {
+        // Limpa os campos de texto
+        textFieldTitle.clear();
+        textFieldValue.clear();
+        // Desmarca os checkbox
+        checkBoxNm_Kgf.setSelected(false);
+        checkBoxKgf_Nm.setSelected(false);
         // Define o espaçamento entre os cards
         vBoxCard.setSpacing(10); // Define o espaçamento entre os cards
         // Itera sobre cada conversão realizada
