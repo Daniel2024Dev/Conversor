@@ -83,7 +83,7 @@ public class HistoryViewController implements Initializable {
                     // Agrupa título e descrição
                     TextFlow textFlow = new TextFlow(titleText, descriptionText);
                     // Define a largura máxima para o TextFlow
-                    textFlow.setPrefWidth(500);
+                    textFlow.setPrefWidth(645);
                     // Cria o botão de exclusão
                     Button button = new Button("Excluir");
                     // Define a ação que ocorre quando o botão é clicado
