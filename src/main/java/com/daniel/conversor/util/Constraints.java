@@ -13,7 +13,7 @@ public class Constraints {
         Tooltip tooltip = new Tooltip("Digite apenas números!");
         textField.setTooltip(tooltip);
         // Adiciona um ouvinte (listener) para detectar mudanças no texto digitado no campo de texto
-        textField.textProperty().addListener((_, _, newValue) -> {
+        textField.textProperty().addListener((observable, oldValue, newValue) -> {
             // Remove todos os caracteres que não são números (dígitos) usando uma expressão regular
             String cleanValue = newValue.replaceAll("\\D", "");
             // Limita o número de caracteres a 14

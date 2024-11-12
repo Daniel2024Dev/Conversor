@@ -32,7 +32,7 @@ public class HistoryViewController implements Initializable {
     // Configura o filtro, adicionando um listener ao campo de texto
     private void setupFilter() {
         // Adiciona um ouvinte para o campo de texto de filtro, que será acionado sempre que o texto mudar
-        textFieldFilter.textProperty().addListener((_, _, newValue) -> {
+        textFieldFilter.textProperty().addListener((observable, oldValue, newValue) -> {
             // Chama a função de filtragem com o novo texto inserido
             filterList(newValue);
         });
@@ -60,7 +60,7 @@ public class HistoryViewController implements Initializable {
         // Chama o 'read()' da classe HistoryDao para obter as conversões salvas
         conversions = FXCollections.observableArrayList(HistoryDao.read());
         // Define como as células da ListView serão exibidas, incluindo um botão de "Excluir"
-        listView.setCellFactory(_ -> new ListCell<>() {
+        listView.setCellFactory(listView -> new ListCell<>() {
             @Override
             protected void updateItem(ConversionModel conversion, boolean empty) {
                 super.updateItem(conversion, empty);
@@ -83,11 +83,11 @@ public class HistoryViewController implements Initializable {
                     // Agrupa título e descrição
                     TextFlow textFlow = new TextFlow(titleText, descriptionText);
                     // Define a largura máxima para o TextFlow
-                    textFlow.setPrefWidth(645);
+                    textFlow.setPrefWidth(675);
                     // Cria o botão de exclusão
                     Button button = new Button("Excluir");
                     // Define a ação que ocorre quando o botão é clicado
-                    button.setOnAction(_ -> {
+                    button.setOnAction(event -> {
                         // Remove a conversão do banco de dados
                         HistoryDao.delete(conversion.getId());
                         // Remove a conversão da lista de itens

@@ -33,7 +33,7 @@ public class MainApplication extends Application {
             // Define o título da janela principal como "Converter".
             primaryStage.setTitle("Converter");
             // Largura da janela
-            primaryStage.setWidth(750);
+            primaryStage.setWidth(765);
             // Altura da janela
             primaryStage.setHeight(600);
             // Exibe o palco principal, tornando a janela visível ao usuário.
